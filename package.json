@@ -1,0 +1,24 @@
+{
+  "name": "akha-coffee-website",
+  "version": "1.0.0",
+  "description": "Akha Coffee Website Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelS45/Akha-Coffee-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelS45/Akha-Coffee-Website/issues"
+  },
+  "homepage": "https://github.com/SamuelS45/Akha-Coffee-Website#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
