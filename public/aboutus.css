@@ -1,0 +1,54 @@
+.about{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.text{
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+.img-box{
+    display: flex;
+    padding: 20px;
+    border: 5px dotted #2A2C77;
+}
+.company{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+}
+.vision{
+    padding: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.about-one{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items:baseline; */
+    /* height: 900px; */
+    /* object-fit: cover; */
+}
+.about-two{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 900px; */
+    /* background-color: aqua; */
+    /* background-color: rgb(255,238,218); */
+    /* object-fit: cover; */
+}
