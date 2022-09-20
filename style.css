@@ -122,8 +122,8 @@ a{
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color:#2A2C77;
-    /* color: white; */
+    /* color:#ffffff; */
+    color: white;
     background-color: #9596BB;
     width: 100%;
 }
