@@ -1,41 +1,39 @@
 .about{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: 2px solid black;
+    /* align-items: center; */
+    /* border: 2px solid black; */
 }
 
 .text{
     padding: 20px;
     width: 400px;
-    height: 500px;
+    /* height: 500px; */
     /* border: 2px solid black; */
+}
+img{
+    width: 200px;
+    margin: 10px;
 }
 .img-box{
     display: flex;
     padding: 20px;
-    border: 5px dotted #2A2C77;
+    /* border: 5px dotted #2A2C77; */
 }
-.company{
-    /* border: 2px solid black; */
+.box{
+    width: 50%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding: 10px;
-}
-.vision{
-    padding: 10px;
-    /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    padding: 10px;
+    /* justify-content: center; */
+    /* border: 2px solid black; */
 }
 .about-one{
-    /* border: 2px solid black; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -44,8 +42,9 @@
     /* object-fit: cover; */
 }
 .about-two{
+    width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
     /* height: 900px; */
     /* background-color: aqua; */

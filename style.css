@@ -37,6 +37,18 @@ html{
     overflow: hidden;
     transition: .5s;
 }
+.hamburger{
+    cursor: pointer;
+    margin: 0%;
+    padding: 0%;
+}
+.ham {
+    width: 35px;
+    height: 5px;
+    background-color: #2A2C77;
+    margin: 6px 0;
+    border-radius: 10px;
+}
 .nav{
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -51,7 +63,8 @@ ul{
     list-style: none;
     height: 200px;
     gap: 50px;
-    
+    margin: 0%;
+    padding: 0%;
     
 }
 li{
@@ -100,6 +113,7 @@ a{
 }
 .logo{
     width: 200px;
+    margin: 0px;
 } 
 
 
@@ -163,7 +177,7 @@ a{
 .map-container:hover{
     scale: .8;
     border: 5px solid #2A2C77;
-    padding: 1px;
+    /* padding: 1px; */
 }
 .row-two{
     background-color: rgb(255,238,218);
@@ -260,13 +274,3 @@ p{
     color: white;
 }
 
-.hamburger{
-    cursor: pointer;
-}
-.ham {
-    width: 35px;
-    height: 5px;
-    background-color: #2A2C77;
-    margin: 6px 0;
-    border-radius: 10px;
-}
