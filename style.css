@@ -27,27 +27,6 @@ html{
     background-color:#9596BB;
 } */
 /* Javascript to top */
-#toTop {
-    display:none; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color:#9596BB; 
-    color: white; 
-    cursor: pointer; 
-    padding: 10px; 
-    border-radius: 20px; 
-    font-size: 18px; 
-    transition: .5s;
-    border: 5px dotted #2A2C77;
-}
-#toTop:hover {
-    background-color:#2A2C77; 
-    color: white;
-}
 
 /* ______________________________ */
 /*Nav and body  */
@@ -122,13 +101,7 @@ a{
 .logo{
     width: 200px;
 } 
-.ham {
-    width: 35px;
-    height: 5px;
-    background-color: #2A2C77;
-    margin: 6px 0;
-    border-radius: 10px;
-}
+
 
 .footer{
     display: flex;
@@ -147,47 +120,6 @@ a{
     display: flex;
     flex-direction: column;
 }
-.row-one{
-    
-    display: flex;
-    justify-content: center;
-    /* height: 946.8; */
-    /* object-fit: cover; */
-}
-.map-container{
-    position: absolute;
-    z-index: 0;
-    /* display: flex; */
-    overflow: hidden;
-    border-radius: 1000px;
-    top: 1680px;
-    justify-content: center;
-    align-items: center;
-
-    transition: .5s;
-    scale: .6;
-}
-.map-container:hover{
-    scale: .8;
-}
-.row-two{
-    background-color: rgb(255,238,218);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 10000; */
-    /* object-fit: cover; */
-}
-.row-three{
-    background-color: #E9E9F1;
-    display: flex;
-    justify-content: center;
-    /* height: 1000px; */
-    /* object-fit: cover; */
-}
-/* ______________________________________ */
-/* Text box and Button */
-/* _______________________________________ */
 .text-one{
     /* height: 300px; */
     margin: 20px;
@@ -195,6 +127,16 @@ a{
     top: 400px;
     left: 200px;
 }
+.row-one{
+    
+    display: flex;
+    justify-content: center;
+    /* height: 946.8; */
+    /* object-fit: cover; */
+}
+/* ___________________________________ */
+/* Row Two  */
+/* ___________________________________ */
 .text-two{
     display: flex;
     justify-content: center;
@@ -202,15 +144,52 @@ a{
     flex-direction: column;
     /* height: 200px; */
     position: absolute;
-    top: 1950px;
+    top: 2120px;
     /* left: 800px; */
 }
+.map-container{
+    position: absolute;
+    z-index: 0;
+    /* display: flex; */
+    overflow: hidden;
+    border-radius: 100px;
+    top: 1700px;
+    justify-content: center;
+    align-items: center;
+    
+    transition: .5s;
+    scale: .7;
+}
+.map-container:hover{
+    scale: .8;
+    border: 5px solid #2A2C77;
+    padding: 1px;
+}
+.row-two{
+    background-color: rgb(255,238,218);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* object-fit: fill; */
+    /* object-fit: cover; */
+    height: 1150px;
+}
+/* ______________________________________ */
+/* Row Three */
+/* _______________________________________ */
 .text-three{
     /* width: 400px; */
     /* height: 300px; */
     position: absolute;
     top: 2350px;
     left: 200px;
+}
+.row-three{
+    background-color: #E9E9F1;
+    display: flex;
+    justify-content: center;
+    /* height: 1000px; */
+    /* object-fit: cover; */
 }
 /* _________________ */
 /* Text properties */
@@ -228,6 +207,9 @@ p{
     font-size: 18pt;
     margin: 5px;
 }
+/* __________________ */
+/* Button */
+/* __________________ */
 .button{
     display: flex;
     justify-content: center;
@@ -256,4 +238,35 @@ p{
     width: 200px;
     color: white;
 }
+#toTop {
+    display:none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color:#9596BB; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 20px; 
+    font-size: 18px; 
+    transition: .5s;
+    border: 5px dotted #2A2C77;
+}
+#toTop:hover {
+    background-color:#2A2C77; 
+    color: white;
+}
 
+.hamburger{
+    cursor: pointer;
+}
+.ham {
+    width: 35px;
+    height: 5px;
+    background-color: #2A2C77;
+    margin: 6px 0;
+    border-radius: 10px;
+}
