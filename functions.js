@@ -24,11 +24,14 @@ ham.addEventListener('click', ()=>{
     active = !active
     if(active == true){
         ham.setAttribute('class', 'hamburger-rotated')
+        ham.setAttribute('id', 'active')
        
         // hamMenu.style.display = 'block'
     }else if(active == false){
         ham.setAttribute('class', 'hamburger')
+        ham.setAttribute('id', 'not')
     
     }
 })
+if(ham)
 // hamMenu.style.display = 'none'
