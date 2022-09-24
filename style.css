@@ -41,6 +41,31 @@ html{
     cursor: pointer;
     margin: 0%;
     padding: 0%;
+    transition: .5s;
+}
+.hamburger-rotated{
+    transition: .5s;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.ham-menu{
+    display: flex;
+    border: 2px solid black;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 20rem;
+    height: 100%;
+    /* z-index: 10; */
+
+}
+.ham-none{
+    display: none;
+}
+.ham-pos{
+    display: flex;
+    justify-content: flex-end;
 }
 .ham {
     width: 35px;
@@ -57,7 +82,7 @@ html{
     justify-content: space-around;
     box-shadow: 0px 5px 10px rgb(42,44,119, 0.5);
 }
-ul{
+.nav-ul{
     align-items: center;
     display: flex;
     list-style: none;
