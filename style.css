@@ -50,22 +50,27 @@ html{
 }
 .ham-menu{
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: absolute;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    width: 20rem;
+    background-color:rgb(149, 150, 187);
+    width: 0px;
     height: 100%;
-    /* z-index: 10; */
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .5s;
+    border-radius: 0px 0px 0px 20px;
+    
+}
 
-}
-.ham-none{
-    display: none;
-}
 .ham-pos{
+    /* position:absolute; */
+    /* z-index: 1; */
+    /* border: 2px solid black; */
     display: flex;
     justify-content: flex-end;
+    /* height: 100%; */
 }
 .ham {
     width: 35px;

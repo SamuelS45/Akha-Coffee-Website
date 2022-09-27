@@ -17,21 +17,26 @@ toTop.onclick = function(){
 }
 
 let ham = document.querySelector('.hamburger')
-let hamMenu = document.querySelector('#ham-menu')
+let hamMenu = document.querySelector('.ham-menu')
 
 let active = false
 ham.addEventListener('click', ()=>{
     active = !active
     if(active == true){
+
         ham.setAttribute('class', 'hamburger-rotated')
-        ham.setAttribute('id', 'active')
-       
-        // hamMenu.style.display = 'block'
+        // ham.setAttribute('id', 'active')
+        
+        hamMenu.style.width = '20rem'
+        // hamMenu.style.display = 'flex'
     }else if(active == false){
+        
         ham.setAttribute('class', 'hamburger')
-        ham.setAttribute('id', 'not')
-    
+        // ham.setAttribute('id', 'not')
+        // hamMenu.style.display = 'none'
+        hamMenu.style.width = '0px'
+        
     }
 })
-if(ham)
-// hamMenu.style.display = 'none'
+// if(ham)
+
