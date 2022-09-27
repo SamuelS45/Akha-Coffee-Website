@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* ___________ */
+.ham {
+    width: 35px;
+    height: 5px;
+    background-color: #2A2C77;
+    margin: 6px 0;
+    border-radius: 10px;
+}
+.hamburger{
+    cursor: pointer;
+    margin: 0%;
+    padding: 0%;
+    transition: .5s;
+}
+.hamburger-rotated{
+    transition: .5s;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.ham-pos{
+    display: flex;
+    justify-content: flex-end;
+    /* position:absolute; */
+    /* z-index: 1; */
+    /* border: 2px solid black; */
+    /* height: 100%; */
+}
+.ham-menu{
+    display: flex;
+    /* border: 2px solid black; */
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(149, 150, 187);
+    width: 0px;
+    height: 500px;
+    z-index: -5;
+    overflow-x: hidden;
+    transition: .5s;
+    border-radius: 0px 0px 0px 20px;
+    
+}
+/* _________ */
+
+
+.nav{
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px rgb(42,44,119, 0.5);
+    z-index: 5;
+}
+
+.nav-ul{
+    display: none; 
+}
+.nav-ul-ham{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    height: 200px;
+    gap: 50px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+li{
+}
+a{
+    text-decoration: none;
+    color: #2A2C77;
+    transition: .5s;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    color: #2A2C77;
+    text-decoration: none;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    transition: .5s;
+}
+
+.nav-item>a:hover{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #9596BB;
+    /* height: 20px; */
+}
+
+
+.active, .link-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80px;
+    height: 40px;
+    background-color:#2A2C77;
+    border-radius: 20px;
+}

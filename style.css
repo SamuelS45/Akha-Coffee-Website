@@ -37,17 +37,22 @@ html{
     overflow: hidden;
     transition: .5s;
 }
+<<<<<<< Updated upstream
 .hamburger{
     cursor: pointer;
     margin: 0%;
     padding: 0%;
-}
-.ham {
-    width: 35px;
-    height: 5px;
-    background-color: #2A2C77;
-    margin: 6px 0;
-    border-radius: 10px;
+=======
+
+
+.ham-pos{
+    display: none;
+    /* position:absolute; */
+    /* z-index: 1; */
+    /* border: 2px solid black; */
+    /* justify-content: flex-end; */
+    /* height: 100%; */
+>>>>>>> Stashed changes
 }
 .nav{
     display: flex;
