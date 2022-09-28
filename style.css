@@ -163,6 +163,7 @@ a{
 .rows{
     display: flex;
     flex-direction: column;
+    
 }
 .text-one{
     /* height: 300px; */
