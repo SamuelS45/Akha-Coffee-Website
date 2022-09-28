@@ -166,11 +166,12 @@ a{
     position:relative;
     top: 2120px;
     /* left: 800px; */
+    z-index: 1;
 }
 .map-container{
-    /* position: absolute; */
-    /* top: 1700px; */
-    z-index: 0;
+    position: absolute;
+    top: 1700px;
+    /* z-index: 0; */
     /* display: flex; */
     overflow: hidden;
     border-radius: 100px;
