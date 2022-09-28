@@ -37,12 +37,6 @@ html{
     overflow: hidden;
     transition: .5s;
 }
-<<<<<<< Updated upstream
-.hamburger{
-    cursor: pointer;
-    margin: 0%;
-    padding: 0%;
-=======
 
 
 .ham-pos{
@@ -52,7 +46,6 @@ html{
     /* border: 2px solid black; */
     /* justify-content: flex-end; */
     /* height: 100%; */
->>>>>>> Stashed changes
 }
 .nav{
     display: flex;
