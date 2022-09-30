@@ -146,7 +146,12 @@ a{
     margin: 0px;
 } 
 
-
+.user{
+    fill: #2A2C77;
+    /* background-color: #2A2C77; */
+    /* width: 500px; */
+    cursor: pointer;
+}
 .footer{
     display: flex;
     justify-content: center;
