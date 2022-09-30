@@ -10,32 +10,65 @@ body{
     display: flex;
     justify-content: center;
     transition: .2s;
+    padding: 50px;
+    /* background: rgb(42,44,119); */
 }
 .container{
+    /* background: linear-gradient(0deg, rgb(182, 182, 182) 0%, rgb(141, 141, 141) 100%); */
+    box-shadow: 0px 2px 5px #2A2C77;
     width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    border-radius: 20px;
 }
 div>button{
     margin: 10px;
 }
 input{
-    border-radius: 5px;
-    border: 2px solid black;
-}
-button{
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 2px solid #2A2C77;
+    /* border: none; */
+    height: 40px;
     width: 200px;
-    border:none;
+    margin: 10px;
+}
+.btn{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    font-size: 18pt;
+    width: 200px;
+    height: 50px;
+    background-color: #9596BB ;
+    border-radius: 20px;
+    border: none;
+    transition: .2s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #2A2C77;
+    
 }
 .logo{
     width: 200px;
+    transition: .2s;
+}
+.logo:hover{
+    transform: scale(.9);
 }
 a{
     text-decoration: none;
-    color: 
+    /* color:  */
     font-weight: bold;
+    margin: 10px;
+    transition: .5s;
+}
+a:hover{
+    transform: scale(1.1);
 }

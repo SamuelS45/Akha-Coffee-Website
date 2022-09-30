@@ -151,6 +151,10 @@ a{
     /* background-color: #2A2C77; */
     /* width: 500px; */
     cursor: pointer;
+    transition: .2s;
+}
+.user:hover{
+    transform: scale(1.1);
 }
 .footer{
     display: flex;
@@ -270,6 +274,7 @@ p{
     font-size: 18pt;
     width: 200px;
     height: 50px;
+    /* background-color: rgb(255, 204, 0) ; */
     background-color: #9596BB ;
     border-radius: 20px;
     border: none;
