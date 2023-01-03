@@ -8,8 +8,8 @@
 }
 
 .text{
-    padding: 20px;
-    width: 400px;
+    /* padding: 20px; */
+    width: 40em;
     /* height: 500px; */
     /* border: 2px solid black; */
 }
@@ -37,6 +37,8 @@ img{
     width: 100%;
     display: flex;
     justify-content: center;
+    /* margin-top: 5em; */
+    /* padding: 5em; */
     /* align-items:baseline; */
     /* height: 900px; */
     /* object-fit: cover; */
@@ -45,9 +47,13 @@ img{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: rgb(255, 255, 187);
+    /* border: 2px black solid; */
     /* align-items: center; */
     /* height: 900px; */
-    /* background-color: aqua; */
     /* background-color: rgb(255,238,218); */
     /* object-fit: cover; */
 }
